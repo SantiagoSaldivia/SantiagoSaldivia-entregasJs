@@ -5,6 +5,7 @@ let apellido= prompt("ingrese apellido");
 alert("BIENVENIDO," + nombre + " " + apellido);
 
 function getCreditQuota(initialPrice, numberOfQuotas){
+    
     if(numberOfQuotas === 1 ){
         const priceWithInteres = initialPrice 
         console.log('tenes que devolver', priceWithInteres)
